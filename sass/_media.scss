@@ -1,0 +1,48 @@
+
+@media (max-width:660px) {
+  .footer {
+    overflow-x: hidden;
+  } 
+
+input[type='text']
+{
+ width: 500px;
+}
+
+nav .nav-links {
+  width : 49%!important;
+}
+}
+
+
+@media (max-width:500px) {
+  .footer {
+    
+    &__links {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      
+      &--link1 {
+        margin-bottom: 20px;
+    }
+    }
+  } 
+
+input[type='text']
+{
+ max-width: 350px;
+}
+
+
+nav .nav-links {
+  width : 55%!important;
+}
+}
+
+
+@media (max-width:1024px) {
+  nav .nav-links {
+    width: 35%;
+  }
+}
